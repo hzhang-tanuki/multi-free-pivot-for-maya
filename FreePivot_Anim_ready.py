@@ -4,22 +4,20 @@ from shiboken2 import wrapInstance
 import maya.cmds as cmds
 import maya.OpenMayaUI as omui
 
-"""
 
-Create Free Pivot Control Group on selected control
->>>>>>>>>>>>>>>>>>>>>
+# Create Free Pivot Control Group on selected control
+# >>>>>>>>>>>>>>>>>>>>>
+#
+# copy paste this script to maya script directory
+# eg : C:\Users\henry\OneDrive\Documents\maya\2023\scripts
+#
+# then run the following two lines, and should work when save to shelf button
+#
+# >>>>>>>>>>>>>>>>>>>>>
+# from FreePivot_Anim_prod_ready import FreePivotCreator
+# FreePivotCreator.show_dialog()
+# >>>>>>>>>>>>>>>>>>>>>
 
-copy paste this script to maya script directory
-eg : C:\Users\henry\OneDrive\Documents\maya\2023\scripts
-
-then run the following two lines, and should work when save to shelf button
-
->>>>>>>>>>>>>>>>>>>>>
-from FreePivot_Anim_prod_ready import FreePivotCreator
-FreePivotCreator.show_dialog()
->>>>>>>>>>>>>>>>>>>>>
-
-"""
 
 
 
